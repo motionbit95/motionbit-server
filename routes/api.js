@@ -18,7 +18,7 @@ admin.initializeApp({
 // Firestore 데이터베이스 참조
 const db = admin.firestore();
 
-router.get("/", async (req, res) => {
+router.get("", async (req, res) => {
   res.send("Hello, World!");
 });
 
