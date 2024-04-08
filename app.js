@@ -13,7 +13,6 @@ app.use(cors());
 // API 라우트를 설정합니다.
 app.use("/api", require("./routes/api"));
 app.use("/api/auth", require("./routes/auth"));
-app.use("/api/database", require("./routes/database"));
 
 // 또는 특정 도메인에서의 요청만 허용하는 경우
 // app.use(cors({ origin: 'https://example.com' }));
